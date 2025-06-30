@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pugs – All about pugs and their lovable, wrinkly charm</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #1d1d1f;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem 1rem;
+      background: #fafbfc;
+    }
+    header img {
+      max-width: 350px;
+      width: 100%;
+      border-radius: 1.5rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin: 0 0 1rem 0;
+    }
+    p {
+      font-size: 1.25rem;
+      color: #555;
+      margin: 0 0 2rem 0;
+    }
+    main {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #1d1d1f;
+    }
+    .care-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .care-card {
+      flex: 1 1 200px;
+      background: #f5f5f7;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+      min-width: 180px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      background: #eee;
+    }
+    form {
+      background: #f5f5f7;
+      border-radius: 1rem;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    input, textarea {
+      border: 1px solid #ddd;
+      border-radius: 0.5rem;
+      padding: 0.75rem;
+      font-size: 1rem;
+      font-family: inherit;
+      background: #fff;
+      transition: border 0.2s;
+    }
+    input:focus, textarea:focus {
+      border: 1.5px solid #007aff;
+      outline: none;
+    }
+    button {
+      background: #1d1d1f;
+      color: #fff;
+      border: none;
+      border-radius: 0.75rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #000;
+    }
+    footer {
+      text-align: center;
+      color: #aaa;
+      font-size: 1rem;
+      padding: 2rem 0 1rem 0;
+      background: #fafbfc;
+      margin-top: 3rem;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.3rem; }
+      .care-list { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=800&q=80" alt="Pug hero image">
+    <h1>Pugs</h1>
+    <p>All about pugs and their lovable, wrinkly charm.</p>
+    <a href="#about"><button>Learn More</button></a>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Pugs</h2>
+      <p>
+        Pugs are an ancient breed that originated in China over 2,000 years ago. These charming companions were once the pets of Chinese emperors and later became favorites of European royalty.<br><br>
+        Known for their distinctive wrinkled faces, curly tails, and expressive eyes, pugs are beloved for their playful personalities and unwavering loyalty. Despite their small size, they have big hearts and even bigger personalities.
+      </p>
+    </section>
+    <section id="care">
+      <h2>Caring for Your Pug</h2>
+      <div class="care-list">
+        <div class="care-card">
+          <strong>🏥 Health</strong>
+          <p>Regular vet check-ups are essential. Pugs can have breathing issues due to their flat faces, so monitor their exercise and avoid hot weather.</p>
+        </div>
+        <div class="care-card">
+          <strong>🛁 Grooming</strong>
+          <p>Clean their facial wrinkles daily to prevent infection. Brush their short coat weekly and trim nails regularly.</p>
+        </div>
+        <div class="care-card">
+          <strong>🍽️ Diet</strong>
+          <p>Feed high-quality dog food appropriate for their age and size. Pugs love to eat and can easily become overweight, so monitor portions.</p>
+        </div>
+      </div>
+    </section>
+    <section id="gallery">
+      <h2>Pug Life Gallery</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=400&q=80" alt="Pug sleeping">
+        <img src="https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a?auto=format&fit=crop&w=400&q=80" alt="Pug on walk">
+        <img src="https://images.unsplash.com/photo-1583511655826-05700d52f5d9?auto=format&fit=crop&w=400&q=80" alt="Pug playing">
+        <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=400&q=80" alt="Pug in garden">
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    &copy; 2024 Pugs. All rights reserved.
+  </footer>
+</body>
+</html>
